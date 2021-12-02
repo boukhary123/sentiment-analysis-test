@@ -35,3 +35,9 @@ Possible sentiments:
 2. Clone your forked repository project https://github.com/YOUR_USERNAME/sentiment-analysis-test
 3. Commit and push your different modifications
 4. Send us a link to your fork once you're done!
+
+# Files
+All work is self contained in the jupyter notebook test.ipynb.
+First part is installations in the google colab environment. Second part is preparring data and traning, running models on validation data. Third part is loading best saved model and generating predictions.
+To generate models it is sufficient to run notebook in the order of their appearance. If using local machine the installation part can be skipped and the paths should be modified accordingly.
+The final predictions generated are in the directory ./data/predictions.csv.
