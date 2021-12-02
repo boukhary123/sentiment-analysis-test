@@ -39,5 +39,5 @@ Possible sentiments:
 # Files
 All work is self contained in the jupyter notebook test.ipynb.
 First part is installations in the google colab environment. Second part is preparring data and traning, running models on validation data. Third part is loading best saved model and generating predictions.
-To generate models it is sufficient to run notebook in the order of their appearance. If using local machine the installation part can be skipped and the paths should be modified accordingly.
+To generate models it is sufficient to run notebook in the order of their appearance. If using local machine the installation part can be skipped.
 The final predictions generated are in the directory ./data/predictions.csv.
